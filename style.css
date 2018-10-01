@@ -1,7 +1,30 @@
 body {
     font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
-    color: #777;
+    color: rgb(235, 14, 243);
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
+}
+
+.dark-on-light {
+    background: #ebebeb;
+    color: #777;
+    border-width: 10px;
+    border-style: solid;
+ }
+
+.light-on-dark {
+    background: #777;
+    color: #ebebeb;
+    border-width: 10px;
+    border-style: solid;
+}
+
+#section {
+    width: 495px;
+}
+
+#aside {
+    float: right;
 }
